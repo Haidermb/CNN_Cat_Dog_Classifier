@@ -19,7 +19,6 @@ class_labels = ['Cat', 'Dog']
 
 # Streamlit app
 st.title('Dog and Cat Classification Project')
-st.markdown("By THG")
 st.write('Upload an image and I will predict whether it\'s a dog or a cat!')
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
